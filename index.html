@@ -1,1 +1,48 @@
-<h1> </h1>search box responsive html css
+<!--  https://workik.com/php-code-generator -->
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Search Box</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+//.search-container {
+      width: 98%;
+       max-width: 800px;
+      //  margin: 50px auto;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+form {width: 98%;  max-width: 800px; display: flex; } 
+
+input[type=text]:focus {border: 1px solid  #007bff;} 
+.search-box {flex: 1; margin-right: 2px;
+        padding: 10px;
+        border: 1px solid  #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 14px;
+        outline: none;
+    }
+    .search-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 0px;
+    }
+</style></head><body>   
+<br> <center><h2>Responsive Search Box</h2>
+<div class="search-container">
+<form>
+<input type="text" class="search-box" placeholder="Search...">
+<button type="submit" class="search-button">Search</button>
+</form></div></center>
+</body></html>
